@@ -1,10 +1,10 @@
 import Menu from "@/app/components/Menu/Menu";
 
-export default function Index() {
+export default function Customers() {
   return (
     <main>
       <Menu/>
-      PRINCIPAL
+      CUSTOMERS
     </main>
   );
 }

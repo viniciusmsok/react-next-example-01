@@ -1,0 +1,34 @@
+.Menu {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.Menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Menu li {
+  margin: 5px 0;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.Menu a:hover {
+  color: #0070f3;
+}
+
+@media (max-width: 768px) {
+  .Menu nav {
+    font-size: 14px;
+  }
+
+  .Menu ul {
+    padding-left: 10px;
+  }
+}
